@@ -1,0 +1,3 @@
+Pangolin이 최신 버전으로 올라감에 따라 그대로 git clone을 해버리면 나중에 ORB build가 eigen 이 없다며 안되는 경우가 발생한다고 함
+그럴 경우, orb cmakelist.txt 39번째줄 eigen3 찾는 곳에 REQUIRED 뒤에 NO_MODULE을 추가할 것.
+그럼 되네?
